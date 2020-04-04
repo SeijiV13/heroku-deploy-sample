@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "heroku-deploy": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "heroku-deploy"
+    }
+  },
+  "defaultProject": "heroku-deploy",
+  "cli": {
+    "analytics": "82605e2e-2fbe-401c-ae86-8db0f3eab5b3"
+  }
 }
